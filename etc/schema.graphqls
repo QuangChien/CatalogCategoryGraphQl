@@ -1,0 +1,3 @@
+interface CategoryInterface {
+    mobile_app_icon : String @resolver(class: "Tigren\\CatalogCategoryGraphQl\\Model\\Resolver\\Category\\MobileAppIcon")
+}
